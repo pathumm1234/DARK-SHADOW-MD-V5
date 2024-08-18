@@ -9,7 +9,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  
-<p align="center"> Dark shadow  MD💥, A Simple WhatsApp user BOT, Created by Pathum Malsara.
+<p align="center"> Dark shadow MD💥, A Simple WhatsApp user BOT, Created by Pathum Malsara.
 </p>
 <p align="center">
 
