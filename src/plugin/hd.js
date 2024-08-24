@@ -22,7 +22,7 @@ const tourl = async (m, gss) => {
 
     try {
         let proses = await remini(media, "enhance"); // Call remini directly
-        gss.sendMessage(m.from, { image: proses, caption: `> *Hey ${m.pushName} Image Create By HANSAMAL-MD*` }, { quoted: m });
+        gss.sendMessage(m.from, { image: proses, caption: `> *Hey ${m.pushName} Image Create By DARK-SHADOW-MD*` }, { quoted: m });
       
     } catch (error) {
       console.error('Error processing media:', error);
