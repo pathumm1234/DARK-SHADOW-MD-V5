@@ -67,13 +67,13 @@ const searchAPK = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ APK Downloader\n\n🔍 Search and download your favorite APKs easily.\n\n📍 Simply select an APK from the list below to get started.\n\n`
+                text: `DARK-SHADOW-MD APK Downloader\n\n🔍 Search and download your favorite APKs easily.\n\n📍 Simply select an APK from the list below to get started.\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© Powered By ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ"
+                text: "© Powered By DARK-SHADOW-MD"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/44826e95f6e863548e408.jpg` } }, { upload: Matrix.waUploadToServer })),
+                ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg` } }, { upload: Matrix.waUploadToServer })),
                 title: ``,
                 gifPlayback: true,
                 subtitle: "",
@@ -88,7 +88,7 @@ const searchAPK = async (m, Matrix) => {
                       sections: [
                         {
                           title: "📱 Top 10 APK Results",
-                          highlight_label: "ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                          highlight_label: "DARK-SHADOW",
                           rows: apkButtons
                         },
                       ]
@@ -128,7 +128,7 @@ const searchAPK = async (m, Matrix) => {
         const iconUrl = apkDetails.icon;
         const size = apkDetails.size;
 
-        await Matrix.sendMessage(m.from, { image: { url: iconUrl }, caption: `You selected this APK:\n\nName: ${selectedAPK.name}\nsize: ${size}\n\n> © Powered by ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ` }, { quoted: m });
+        await Matrix.sendMessage(m.from, { image: { url: iconUrl }, caption: `You selected this APK:\n\nName: ${selectedAPK.name}\nsize: ${size}\n\n> © Powered by DARK-SHADOW` }, { quoted: m });
 
   
         const apkMessage = {
