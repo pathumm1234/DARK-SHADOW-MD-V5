@@ -90,20 +90,20 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *DARK-SHADOW-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
-│👤 ɴᴜᴍʙᴇʀ: 94711262551
+│👨‍💻 ᴏᴡɴᴇʀ : *PATHUM_MALSARA*      
+│👤 ɴᴜᴍʙᴇʀ: 94773416478
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By HANSAMAL-MD"
+              text: "© Powered By DARK-SHADOW-MD"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/HANSAMAL.jpg')}, { upload: Matrix.waUploadToServer})), 
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/DARK-SHADOW.jpg')}, { upload: Matrix.waUploadToServer})), 
                   title: ``,
                   gifPlayback: true,
                   subtitle: "",
@@ -116,67 +116,67 @@ let mode = ethix.public ? 'public' : 'private';
                   "buttonParamsJson": `{"title":"ᴛᴀᴘ ʜᴇʀᴇ",
                  "sections":
                    [{
-                    "title":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ ᴍᴇɴᴜ",
+                    "title":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ ᴍᴇɴᴜ",
                     "highlight_label":"ᴀʟʟ ᴍᴇɴᴜ",
                     "rows":[
                       {
                        "header":"",
                        "title":"ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                       "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
                         "title":"ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
                         "title":"ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴀɪ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴛᴀʟᴋ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ",
                         "id":"Converter Menu"
                       }
                     ]}
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DARK-SHADOW-MD",
                   serverMessageId: 143
                 }
               }
@@ -207,10 +207,10 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *DARK-SHADOW-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
-│👤 ɴᴜᴍʙᴇʀ: 94711262551
+│👨‍💻 ᴏᴡɴᴇʀ : *PATHUM_MALSARA*      
+│👤 ɴᴜᴍʙᴇʀ: 94773416478
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
