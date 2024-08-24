@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/cobrs11/HANSAMAL-MD`;
+    const repoUrl = `https://github.com/dark-shadow-LK/DARK-SHADOW-MD-V5`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -78,7 +78,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Click Here To Fork',
-                    url: 'https://github.com/cobrs11/HANSAMAL-MD/fork',
+                    url: 'https://github.com/dark-shadow-LK/DARK-SHADOW-MD-V5/fork',
                   }),
                 },
                 {
