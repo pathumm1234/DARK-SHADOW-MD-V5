@@ -10,7 +10,7 @@ const video = async (m, Matrix) => {
   const validCommands = ['video', 'ytmp4', 'vid'];
 
    if (validCommands.includes(cmd)) {
-    if (!text) return m.reply('Give a YouTube URL or search query HANSAMAL-MD.');
+    if (!text) return m.reply('Give a YouTube URL or search query DARK-SHADOW-MD.');
 
     try {
       await m.React("🕘");
@@ -35,7 +35,7 @@ const video = async (m, Matrix) => {
 
             const videoInfo = await yts({ videoId: ytdl.getURLVideoID(text) });
     
-            await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: '> © Powered by IMALKAHANSAMAL-𝞛𝘿' }, { quoted: m });
+            await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: '> © Powered by DARK-SHADOW' }, { quoted: m });
             await m.React("✅");
           } catch (err) {
             console.error('Error sending video:', err);
@@ -67,7 +67,7 @@ const video = async (m, Matrix) => {
           try {
             const finalVideoBuffer = Buffer.concat(videoBuffer);
           
-            await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: '> © Powered by HANSAMAL-MD' }, { quoted: mek });
+            await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: '> © Powered by DARK-SHADOW-MD' }, { quoted: mek });
             await m.React("✅");
           } catch (err) {
             console.error('Error sending video:', err);
