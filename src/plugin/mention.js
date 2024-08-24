@@ -9,7 +9,7 @@ const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
 const chatHistoryFile = path.resolve(__dirname, '../tag_history.json');
 
-const mistralSystemPrompt = "You are HANSAMAL-MD, an intelligent bot. Someone mentioned your owner. Respond with helpful and friendly assistance.";
+const mistralSystemPrompt = "You are DARK-SHADOW-MD, an intelligent bot. Someone mentioned your owner. Respond with helpful and friendly assistance.";
 
 async function readChatHistoryFromFile() {
     try {
@@ -60,7 +60,7 @@ const mistral = async (m, Matrix) => {
         const text = m.body.trim();
 
         if (text === `@${botNumber}` || text === `@${ownerNumber}`) {
-            await Matrix.sendMessage(m.from, { audio: { url: 'https://telegra.ph/file/44826e95f6e863548e408.jpg' } }, { quoted: m });
+            await Matrix.sendMessage(m.from, { audio: { url: 'https://telegra.ph/file/1ece2e0281513c05d20ee.jpg' } }, { quoted: m });
             return;
         }
 
