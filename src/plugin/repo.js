@@ -37,7 +37,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
 *_Forks:_* ${forks_count}
 *_Created At:_* ${new Date(created_at).toLocaleDateString()}
 *_Last Updated:_* ${new Date(updated_at).toLocaleDateString()}
-*_Owner:_* ɪᴍᴀʟᴋᴀ-ʜᴀɴꜱᴀᴍᴀʟ
+*_Owner:_* ᴘᴀᴛʜᴜᴍ-ᴍᴀʟsᴀʀᴀ
     `;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
@@ -52,12 +52,12 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ',
+              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://telegra.ph/file/44826e95f6e863548e408.jpg',
+                  url: 'https://telegra.ph/file/1ece2e0281513c05d20ee.jpg',
                 },
               }, { upload: Matrix.waUploadToServer })),
               title: '',
@@ -71,7 +71,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Contact Owner',
-                    url: 'https://wa.me/+94711262551?text=HI_HANSAMAL_BOT_OWNER',
+                    url: 'https://wa.me/+94773416478?text=HI_Dark-Shadow_BOT_OWNER',
                   }),
                 },
                 {
