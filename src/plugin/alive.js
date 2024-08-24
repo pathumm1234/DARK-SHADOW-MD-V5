@@ -12,7 +12,7 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*HANSAMAL-MD Status Overview*
+  const uptimeMessage = `*DARK-SHADOW-MD Status Overview*
 _________________________________________
 
 *📆 ${days} Day*
@@ -51,7 +51,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By HANSAMAL-MD"
+            text: "© Powered By DARK-SHADOW-MD"
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
@@ -67,8 +67,8 @@ _________________________________________
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '94711262551',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterJid: '94773416478',
+                  newsletterName: "DARK-SHADOW-MD",
                   serverMessageId: 143
                 }
               }
