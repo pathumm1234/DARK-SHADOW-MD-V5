@@ -82,7 +82,7 @@ const tiktokCommand = async (m, Matrix) => {
                 text: "© Powered By DARK-SHADOW-MD"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/44826e95f6e863548e408.jpg` } }, { upload: Matrix.waUploadToServer })),
+                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg` } }, { upload: Matrix.waUploadToServer })),
                 title: "",
                 gifPlayback: true,
                 subtitle: "",
