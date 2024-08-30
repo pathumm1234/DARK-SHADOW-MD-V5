@@ -33,7 +33,7 @@ const song = async (m, Matrix) => {
     if (!text) return m.reply('Please provide a YouTube URL or search query');
 
     try {
-      await m.React("🕘");
+      await m.React("🔁");
 
       // Search YouTube for the provided query
       const searchResult = await yts(text);
