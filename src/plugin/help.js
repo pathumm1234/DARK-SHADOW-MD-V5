@@ -117,7 +117,7 @@ let mode = ethix.public ? 'public' : 'private';
                  "sections":
                    [{
                     "title":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ ᴍᴇɴᴜ",
-                    "highlight_label":"ᴀʟʟ ᴍᴇɴᴜ",
+                    "highlight_label":"ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ",
                     "rows":[
                       {
                        "header":"",
