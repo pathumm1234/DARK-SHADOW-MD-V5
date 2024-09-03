@@ -95,7 +95,7 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("👨‍💻 *DARK-SHADOW-MD CONNECTED SSUCCESSFUL* ✅"));
+                    console.log(chalk.green("👨‍💻 *DARK-SHADOW-MD CONNECTED SUCCESSFUL* ✅"));
                     Matrix.sendMessage(Matrix.user.id, { text: `👨‍💻 *DARK-SHADOW-MD CONNECTED SSUCCESSFUL* ✅` });
                     initialConnection = false;
                 } else {
