@@ -346,7 +346,7 @@ const song = async (_0x937ef9, _0x3d5042) => {
               const _0x4801b9 = {
                 video: _0x44f869,
                 mimetype: "video/mp4",
-                caption: "> *TITLE:* " + _0x630dbd.title + "\n> *AUTHOR:* " + _0x630dbd.author.name + "\n> *DURATION:* " + _0x630dbd.timestamp + "\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ*"
+                caption: "> *TITLE:* " + _0x630dbd.title + "\n> *AUTHOR:* " + _0x630dbd.author.name + "\n> *DURATION:* " + _0x630dbd.timestamp + "\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-ꜱʜᴀᴅᴏᴡ-ᴍᴅ*"
               };
               await _0x3d5042.sendMessage(_0x937ef9.from, _0x4801b9, {
                 'quoted': _0x937ef9
