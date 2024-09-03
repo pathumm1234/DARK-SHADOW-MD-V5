@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://github.com/dark-shadow-LK/DARK-SHADOW-MD-V1`;
+    const repoUrl = `https://github.com/dark-shadow-LK/DARK-SHADOW-MD-V5`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
