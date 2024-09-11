@@ -52,13 +52,13 @@ async function downloadSessionData() {
         console.error('Please add your session to SESSION_ID env !!');
         return false;
     }
-    const sessdata = config.SESSION_ID.split("DARK-SHADOW&")[1];
+    const sessdata = config.SESSION_ID.split("DARK-SHADOW-MD&")[1];
     const url = `https://pastebin.com/raw/${sessdata}`;
     try {
         const response = await axios.get(url);
         const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
         await fs.promises.writeFile(credsPath, data);
-        console.log("😈 Session Successfully Loaded😈 !!");
+        console.log("🔒 Session Successfully Loaded📱 !!");
         return true;
     } catch (error) {
        // console.error('Failed to download session data:', error);
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("👨‍💻 *DARK-SHADOW-MD CONNECTED SUCCESSFUL* ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `👨‍💻 *DARK-SHADOW-MD CONNECTED SUCCESSFUL* ✅` });
+                    console.log(chalk.green("📍 DARK-SHADOW-MD CONNECTED Successful️ ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `📍DARK-SHADOW-MD CONNECTED Successful️ ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
